@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn' => '',
-	'hostname' => 'localhost',
-	'username' => 'sa',
-	'password' => '123456',
-	'database' => 'mymoney',
+	'hostname' => 'den1.mssql7.gear.host',
+	'username' => 'mymoney1',
+	'password' => 'Ch3AYH!7obA?',
+	'database' => 'mymoney1',
 	'subdriver' => 'sqlsrv',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',

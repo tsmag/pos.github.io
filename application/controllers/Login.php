@@ -15,6 +15,14 @@ class Login extends CI_Controller {
 		$this->load->view('login', $data);
 	}
 
+    public function generate_password_testing2() {
+    $this->load->helper('crypto'); // pastikan helper ini adalah tempat fungsi encrypt_password()
+    $plaintext = '1234';
+    $encrypted = encrypt_password($plaintext);
+    echo "Encrypted password: <br>" . $encrypted;
+}
+
+
 // cek error password
 
     // public function test_encrypt() {
